@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+      "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+      monospace;
+  }
+  
+  #theme {
+    display: none;
+  }
+  #theme:checked ~ * {
+    filter: invert(1);
+  }
+  
+  .App {
+    width: 100%;
+    min-height: 100vh;
+    background: white;
+    margin-bottom: 40px;
+  }
+  
+  .main {
+    max-width: 1000px;
+    width: 100%;
+    min-height: 100vh;
+    margin: auto;
+  }
+  
+  img {
+    object-fit: cover;
+  }
+  
+  /* -------- AUTH --------- */
+  @import url("./auth.css");
+  
+  /* -------- Loading --------- */
+  @import url("./loading.css");
+  
+  /* -------- Header --------- */
+  @import url("./header.css");
+
+  /* -------- Avatar  --------- */
+  @import url("./avatar.css");
+
+  /* -------- Profile  --------- */
+  @import url("./profile.css");
+
+   /* -------- Home  --------- */
+  @import url("./home.css");
+
+  /* -------- Status Modal  --------- */
+  @import url("./status_modal.css");
+
+  /* -------- Comments  --------- */
+  @import url("./comments.css");
+
+  /* -------- Post_Thumb  --------- */
+  @import url("./post_thumb.css");
+
+  /* -------- Message  --------- */
+  @import url("./message.css");
+
+  /* -------- Icons  --------- */
+  @import url("./icons.css");
+
+  /* -------- Call Modal --------- */
+  @import url("./call_modal.css");
+
+  @media (max-width: 420px) {
+    .App {
+      margin-bottom: 80px;
+    }
+  }
+  
+  .mode{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+  }
